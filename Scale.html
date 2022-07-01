@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS3 Transformation</title>
+    <style>
+        .square{
+            width:100px;
+            height:100px;
+            background-color: yellow;
+            border:5px solid black;
+            margin:100px;
+            transition:transform 1s;
+        }
+           .square:hover{ transform:scale(0.8); }
+         
+        .droplet{ width:100px;
+            height:100px;
+            background-color: mediumaquamarine;
+            border-radius:2% 50%;
+            margin:100px;
+            transition:all 3s;
+            transition-timing:ease-in-out;}
+         
+        .droplet:hover{ transform:rotateX(360deg); }
+         
+        </style>
+
+</head>
+<body>
+    <h1>The Scale() Method</h1>
+<div class="square"></div>
+<h1>The rotate() Method</h1>
+<div class="droplet"></div>
+</body>
+</html>

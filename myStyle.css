@@ -1,0 +1,11 @@
+/* This is an External Style Sheet*/
+/* The linking or importing of stylesheet is known as Cascading StyleSheet*/
+
+body{background-color: skyblue;
+    font-size:larger;
+    font-family: Courier New;
+}
+
+h1{color:darkorange}
+
+p{color: blue;}
